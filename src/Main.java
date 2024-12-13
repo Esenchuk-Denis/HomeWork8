@@ -15,6 +15,9 @@ public class Main {
         // изменение года
         book1.setPublicationYear(1873);
         System.out.println("Обновленный год публикации книги " + book1.getNameBook() + ": " + book1.getPublicationYear());
+
+        System.out.println(book1.toString());
+        System.out.println(book2.toString());
     }
 }
 
